@@ -1,0 +1,11 @@
+# things to exclude
+*.DS_Store
+*__pycashe__*
+*.pyc
+.ipynb*
+.pytest*
+*~\$*
+*~*
+Logs\**
+*.bak
+*.venv
