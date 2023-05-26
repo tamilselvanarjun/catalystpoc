@@ -16,16 +16,17 @@ git clone https://github.com/arjunlimat/catalystpoc.git
 
 Install the required dependencies:
 pip install -r requirements.txt
-Configure Azure Blob Storage credentials:
+
+Configure Azure Blob Storage credentials
 
 ## Open the config.py file and provide the appropriate values for the following variables:
-STORAGE_ACCOUNT_KEY = "your-storage-account-key"
+storage-account-key = "azure-blob-storage-account-key"
 
-STORAGE_ACCOUNT_NAME = "your-storage-account-name"
+storage-account-name = "azure-blob-storage-account-name"
 
-CONNECTION_STRING = "your-connection-string"
+connection-string = "azure-blob-connection-string"
 
-CONTAINER_NAME = "your-container-name"
+container-name = "azure-blob-container-name"
 
 
 ## Start the Django server:
